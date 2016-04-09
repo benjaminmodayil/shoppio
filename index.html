@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Shoppio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="content">
+      <header><a href="#">
+          <h1>Shoppio</h1></a>
+        <section>
+          <ul class="one"><a href="#">
+              <li class="task-related">categories</li></a><a href="#">
+              <li class="task-related">all items</li></a></ul>
+          <ul class="two"><a href="#">
+              <li class="user-related">profile</li></a><a href="#">
+              <li class="user-related">settings</li></a></ul>
+        </section>
+      </header>
+      <div class="main-content">
+        <form id="new-item" method="" action="" class="form">
+          <input type="text" name="item" placeholder="type an item and then press enter" min="1" maxlength="64" required="required" autofocus="autofocus" class="input"/>
+          <button type="submit" id="plus"></button>
+        </form>
+        <ul class="items">
+          <li class="item"><a href="#"><img src="images/svgs/fi-x.svg" alt="" class="xe"/></a>
+            <p>buy marinade</p><a href="#"><img src="images/svgs/fi-check.svg" alt="" class="check"/></a>
+          </li>
+          <li class="item"><a href="#"><img src="images/svgs/fi-x.svg" alt="" class="xe"/></a>
+            <p>sardines 4 dayz</p><a href="#"><img src="images/svgs/fi-check.svg" alt="" class="check"/></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="application/javascript" src="js/script.js"></script>
+    <div class="visible">
+      <p id="words" class="empty alignPop">You have no items on your list...</p><img src="images/sad.png" alt="sad face" class="alignPop empty face"/>
+    </div>
+  </body>
+</html>
