@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+* a {
+  color: white;
+  text-decoration: none;
+}
+html body {
+  background-color: #c6d2d8;
+  font-size: 62.5%;
+}
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
+  font-family: 'Yellowtail';
+}
+html body p {
+  font-family: 'Oswald';
+}
+html body small {
+  font-family: 'Open Sans';
+}
+html body header {
+  background-color: #009688;
+  color: white;
+}
+html body header a h1 {
+  font-size: 5.5em;
+  margin: 0px auto;
+  padding-top: 1rem;
+  display: block;
+  transition: font 0.3s ease-in-out;
+  text-align: center;
+}
+html body header a h1:hover {
+  position: relative;
+  font-size: 5.6em;
+}
+html body header ul {
+  margin: -1em 0px 1em 0px;
+}
+html body header .one {
+  display: inline-block;
+}
+html body header .one li {
+  font-family: 'Open Sans';
+  padding: 0px 5em;
+  display: inline-block;
+  font-size: 2em;
+}
+html body header .two {
+  float: right;
+}
+html body header .two li {
+  font-family: 'Open Sans';
+  padding: 0px 5em;
+  display: inline-block;
+  font-size: 2em;
+}
+html body .main-content * {
+  list-style: none;
+}
+html body .main-content .form {
+  margin: 0px auto;
+  width: 40%;
+}
+@media screen and (max-width: 800px) {
+  html body .main-content .form {
+    width: 70%;
+  }
+}
+html body .main-content .form .input {
+  width: 99.4%;
+  height: 4em;
+  border-radius: 1%;
+  margin-top: 4em;
+  font-size: 2em;
+}
+html body .main-content .form input[placeholder] {
+  padding-left: 10px;
+}
+html body .main-content .form button[type="submit"] {
+  position: relative;
+  bottom: 6em;
+  left: 93%;
+  width: 5em;
+  height: 5em;
+  background-image: url('../images/svgs/fi-plus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #75c6a9;
+}
+html body .main-content .form #plus {
+  position: relative;
+  right: 6em;
+}
+.items {
+  width: 33%;
+  height: 5em;
+  margin: 10px auto;
+  text-align: center;
+}
+.items * {
+  background-color: #63bf9e;
+}
+.item {
+  background-color: #63bf9e;
+  width: 100%;
+  margin: 10px auto;
+  border: 1px #46a986 solid;
+  padding: 1em;
+}
+.item img:first-of-type {
+  float: left;
+  width: 2.5em;
+}
+.item p {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0px auto;
+  width: 8em;
+  color: white;
+  font-weight: 300;
+}
+.item .check {
+  float: right;
+  width: 2.5em;
+  position: relative;
+  bottom: 3.6em;
+  left: 95%;
+}
+.alignPop {
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1%;
+}
+.face {
+  margin: 0px 49%;
+}
+.visible {
+  visibility: hidden;
+}
